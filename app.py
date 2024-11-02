@@ -58,14 +58,14 @@ def main():
     col1, col2 = st.columns(2)
 
     with col1:
-           st.image("D:\Summary_Generator_Python\Images\sum.png")
+           st.image("sum.png")
            if st.button("Summary Generator", key="summary_generator", help="Click to summarize a PDF"):
            
             st.session_state.selected_app = "summary_generator"
            
 
     with col2:
-        st.image("D:\Summary_Generator_Python\Images\Hand.png")
+        st.image("Hand.png")
         if st.button("Handwriting Conversion", key="handwriting_conversion", help="Click to convert handwriting to digital text"):
             
              st.session_state.selected_app = "handwriting_conversion"
